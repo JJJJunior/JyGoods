@@ -12,7 +12,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class BaseConfig:
-
+    SECRET_KEY = 'adsasdasfafd@$$DSADASD'
 
     @staticmethod
     def init_app(app):
