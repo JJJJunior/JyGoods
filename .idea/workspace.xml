@@ -13,9 +13,9 @@
     <file path="/__init__.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450761386305" ignored="false" />
     <file path="/views.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450762508540" ignored="false" />
     <file path="/errors.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450756178231" ignored="false" />
-    <file path="/base.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450770158832" ignored="false" />
+    <file path="/base.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450771003038" ignored="false" />
     <file path="/froms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450759524913" ignored="false" />
-    <file path="/forms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760461832" ignored="false" />
+    <file path="/forms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450771186126" ignored="false" />
     <file path="/a.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760802015" ignored="false" />
     <file path="/a.js" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760803244" ignored="false" />
     <file path="/start_script.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760808013" ignored="false" />
@@ -39,12 +39,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="187" selection-end="187" vertical-scroll-proportion="0.4352518">
+            <state line="13" column="55" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#52#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jygoods/templates/main/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.285714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.72131145">
+              <folding>
+                <element signature="e#53#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,12 +98,12 @@
         <option value="$PROJECT_DIR$/jygoods/forms/__init__.py" />
         <option value="$PROJECT_DIR$/jygoods/forms/main/froms.py" />
         <option value="$PROJECT_DIR$/jygoods/main/__init__.py" />
-        <option value="$PROJECT_DIR$/jygoods/main/forms.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/jygoods/__init__.py" />
         <option value="$PROJECT_DIR$/jygoods/main/views.py" />
         <option value="$PROJECT_DIR$/jygoods/templates/main/index.html" />
         <option value="$PROJECT_DIR$/jygoods/templates/main/base.html" />
+        <option value="$PROJECT_DIR$/jygoods/main/forms.py" />
       </list>
     </option>
   </component>
@@ -194,6 +214,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jygoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -242,7 +280,7 @@
       <recent name="E:\git_box\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.JyGoods">
+  <component name="RunManager" selected="Python.web">
     <configuration default="false" name="shell" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,27 +390,9 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="JyGoods" type="PythonConfigurationType" factoryName="Python" singleton="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/env/Scripts/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JyGoods" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jygoods/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.web" />
       <item index="1" class="java.lang.String" itemvalue="Python.shell" />
-      <item index="2" class="java.lang.String" itemvalue="Python.JyGoods" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -577,11 +597,6 @@
         <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.4347826" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="139" selection-end="139" vertical-scroll-proportion="0.5498721" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jygoods/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="28" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2685422" />
@@ -592,18 +607,27 @@
         <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.5409836" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#52#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jygoods/templates/main/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.285714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
+    <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="187" selection-end="187" vertical-scroll-proportion="0.4352518">
+        <state line="12" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.72131145">
           <folding>
-            <element signature="e#52#85#0" expanded="true" />
+            <element signature="e#53#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
