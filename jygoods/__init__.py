@@ -28,4 +28,7 @@ def create_app(config_name):
     from jygoods.main import main as view_main_blueprint
     app.register_blueprint(view_main_blueprint)
 
+    from jygoods.admin import admin as view_admin_blueprint
+    app.register_blueprint(view_admin_blueprint, url_prefix='/admin')
+
     return app

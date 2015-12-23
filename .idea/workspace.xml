@@ -4,22 +4,24 @@
     <list default="true" id="6c1ce4a2-b330-467f-a847-eabb38b7639b" name="Default" comment="" />
     <ignored path="JyGoods.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450770109013" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450853074718" ignored="false" />
     <file path="/a.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760796065" ignored="false" />
     <file path="/a.coffee" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450428363957" ignored="false" />
     <file path="/config.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450761206341" ignored="false" />
     <file path="/___init__.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450431046841" ignored="false" />
     <file path="/web.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450752016332" ignored="false" />
-    <file path="/__init__.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450761386305" ignored="false" />
-    <file path="/views.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450762508540" ignored="false" />
+    <file path="/__init__.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450853397237" ignored="false" />
+    <file path="/views.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450858672074" ignored="false" />
     <file path="/errors.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450756178231" ignored="false" />
     <file path="/base.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450771003038" ignored="false" />
     <file path="/froms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450759524913" ignored="false" />
-    <file path="/forms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450771186126" ignored="false" />
+    <file path="/forms.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450853767014" ignored="false" />
     <file path="/a.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760802015" ignored="false" />
     <file path="/a.js" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760803244" ignored="false" />
     <file path="/start_script.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450760808013" ignored="false" />
     <file path="/index.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450769462534" ignored="false" />
+    <file path="/login.html" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450853935081" ignored="false" />
+    <file path="/models.py" changelist="6c1ce4a2-b330-467f-a847-eabb38b7639b" time="1450854465265" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +44,27 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="55" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#52#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jygoods/templates/main/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.285714">
+            <state line="5" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jygoods/admin/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.72131145">
+            <state line="7" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jygoods/admin/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="46" selection-start="502" selection-end="502" vertical-scroll-proportion="0.65445024">
               <folding>
-                <element signature="e#53#83#0" expanded="true" />
+                <element signature="e#53#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,22 +88,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jygoods/views/__init__.py" />
-        <option value="$PROJECT_DIR$/jygoods/views/main/errors.py" />
-        <option value="$PROJECT_DIR$/jygoods/views/main/__init__.py" />
-        <option value="$PROJECT_DIR$/jygoods/views/errors.py" />
-        <option value="$PROJECT_DIR$/jygoods/models/__init__.py" />
-        <option value="$PROJECT_DIR$/jygoods/templates/main/404.html" />
         <option value="$PROJECT_DIR$/jygoods/views/main/views.py" />
         <option value="$PROJECT_DIR$/jygoods/forms/__init__.py" />
         <option value="$PROJECT_DIR$/jygoods/forms/main/froms.py" />
         <option value="$PROJECT_DIR$/jygoods/main/__init__.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/jygoods/__init__.py" />
-        <option value="$PROJECT_DIR$/jygoods/main/views.py" />
         <option value="$PROJECT_DIR$/jygoods/templates/main/index.html" />
-        <option value="$PROJECT_DIR$/jygoods/templates/main/base.html" />
         <option value="$PROJECT_DIR$/jygoods/main/forms.py" />
+        <option value="$PROJECT_DIR$/jygoods/main/views.py" />
+        <option value="$PROJECT_DIR$/jygoods/templates/admin/login.py" />
+        <option value="$PROJECT_DIR$/jygoods/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/jygoods/__init__.py" />
+        <option value="$PROJECT_DIR$/jygoods/templates/main/base.html" />
+        <option value="$PROJECT_DIR$/jygoods/admin/forms.py" />
+        <option value="$PROJECT_DIR$/jygoods/templates/admin/login.html" />
+        <option value="$PROJECT_DIR$/jygoods/admin/models.py" />
+        <option value="$PROJECT_DIR$/jygoods/admin/views.py" />
       </list>
     </option>
   </component>
@@ -163,10 +163,6 @@
               <option name="myItemId" value="JyGoods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -209,8 +205,26 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jygoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,6 +246,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JyGoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jygoods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -240,14 +272,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="119" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="126" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="119" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JyGoods_Blog" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="126" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="919" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="919" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="919" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="126" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="126" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -259,7 +291,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -459,11 +491,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23484848" sideWeight="0.6740995" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23863636" sideWeight="0.70154375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,33 +572,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jygoods/templates/main/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/WTForms-2.1.dist-info/metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/WTForms-2.1.dist-info/METADATA">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/WTForms-2.1.dist-info/top_level.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/WTForms-2.1.dist-info/DESCRIPTION.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/WTForms-2.1.dist-info/WHEEL">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -592,42 +597,76 @@
         <state line="10" column="30" selection-start="148" selection-end="148" vertical-scroll-proportion="0.56265986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web.py">
+    <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.4347826" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2685422" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.5409836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="55" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#52#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/templates/main/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.285714">
+        <state line="6" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.36065573">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jygoods/main/forms.py">
+    <entry file="file://$PROJECT_DIR$/jygoods/admin/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.72131145">
+        <state line="11" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.6612022">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="49" selection-start="518" selection-end="518" vertical-scroll-proportion="0.45901638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/templates/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="161" selection-end="161" vertical-scroll-proportion="0.4556213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-0.021857923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.06010929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/admin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="395" selection-end="395" vertical-scroll-proportion="0.65445024">
           <folding>
             <element signature="e#53#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jygoods/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="502" selection-end="502" vertical-scroll-proportion="0.65445024">
+          <folding>
+            <element signature="e#53#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
