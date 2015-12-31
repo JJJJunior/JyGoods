@@ -31,11 +31,11 @@ class User(db.Model, UserMixin):
     def verify_password(self, password):
         return check_password_hash(self.password_hash, password)
 
-    def can(self):
-        pass
+    def can(self, permissions):
+        return self.role is not None and (self.role.permissions & permissions) == permissions
 
 
-#login加载用户回调
+# login加载用户回调
 @login_manager.user_loader
 def loader_user(user_id):
     return User.query.get(int(user_id))
@@ -47,3 +47,4 @@ class Role(db.Model):
     name = db.Column(db.String(64), unique=True, index=True, nullable=False)
     default = db.Column(db.Boolean, default=False, index=True)
     permissions = db.Column(db.Integer)
+    users = db.relationship('User', backref='role', lazy='dynamic')
