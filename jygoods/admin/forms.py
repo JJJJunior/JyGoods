@@ -5,7 +5,7 @@ author : JuniorSean
 """
 
 from flask.ext.wtf import Form
-from wtforms import StringField, PasswordField, SubmitField, BooleanField
+from wtforms import StringField, PasswordField, SubmitField, BooleanField, SelectField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from jygoods.admin.models import User
 
@@ -30,3 +30,9 @@ class RegisterForm(Form):
         if User.query.filter_by(email=field.data).first():
             raise ValidationError(u'邮箱已存在')
 
+
+class EditUserForm(Form):
+    email = StringField(u'邮箱', validators=[Email(), DataRequired(), Length(1, 64)])
+    password = PasswordField(u'新密码')
+    role = SelectField(u'角色', coerce=int)
+    submit = SubmitField(u'提交')

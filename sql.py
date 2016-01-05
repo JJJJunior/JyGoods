@@ -6,7 +6,9 @@ author : JuniorSean
 
 from jygoods.admin.models import db
 from jygoods.admin.models import Permission
-from jygoods.admin.models import Role
+from jygoods.admin.models import Role, User
+import forgery_py
+import random
 
 
 def init_db():
@@ -26,7 +28,20 @@ def init_db():
         role.permissions = roles[r][0]
         role.default = roles[r][1]
         db.session.add(role)
-    try:
-        db.session.commit()
-    except:
-        db.session.rollback()
+        try:
+            db.session.commit()
+        except:
+            db.session.rollback()
+
+
+def create_user(count):
+    for x in xrange(0, count):
+        u = User()
+        u.email = forgery_py.internet.email_address()
+        u.password(forgery_py.name.company_name())
+        u.role_id = random.choice(Role.query.all()).id
+        db.session.add(u)
+        try:
+            db.session.commit()
+        except:
+            db.session.rollback()

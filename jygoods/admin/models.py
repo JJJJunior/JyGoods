@@ -20,7 +20,7 @@ class Permission:
 class User(db.Model, UserMixin):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(128), unique=True, index=True, nullable=False)
+    email = db.Column(db.String(128), index=True, nullable=False)
     password_hash = db.Column(db.String(128), nullable=False)
     status = db.Column(db.Integer)
     role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
@@ -48,3 +48,6 @@ class Role(db.Model):
     default = db.Column(db.Boolean, default=False, index=True)
     permissions = db.Column(db.Integer)
     users = db.relationship('User', backref='role', lazy='dynamic')
+
+    def __repr__(self):
+        return self.name

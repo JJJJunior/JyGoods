@@ -7,9 +7,6 @@
     {{ super() }}
 {% endblock %}
 
-{% block nav %}
-{% endblock %}
-
 {% block content %}
     <div class="container">
         {% block page_content %}
@@ -19,4 +16,5 @@
 
 {% block scripts %}
     {{ super() }}
+    <script src="{{ url_for('static', filename="test.js") }}"></script>
 {% endblock %}
