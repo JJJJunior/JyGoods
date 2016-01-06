@@ -11,6 +11,12 @@ from flask.ext.login import login_user, login_required, logout_user, current_use
 from jygoods.admin.models import User, Role
 from jygoods import db
 from jygoods.admin.decorators import admin_required
+from jygoods import csrf
+
+
+@csrf.error_handler
+def csrf_error(reason):
+    return render_template('csrf_error.html', reason=reason), 400
 
 
 @admin.route('/login', methods=['GET', 'POST'])
@@ -101,3 +107,22 @@ def edit_user(id):
     form.email.data = user.email
     form.role.data = user.role_id
     return render_template('admin/edit_user.html', form=form)
+
+
+@csrf.exempt
+@admin.route('/delete_users', methods=['GET', 'POST'])
+@admin_required
+def delete_users():
+    page = request.args.get('page', 1, type=int)
+    if request.method == "POST":
+        # 去掉csrf
+        for id in request.form:
+            if current_user.id != id and id != 'csrf_token':
+                u = User.query.get(id)
+                db.session.delete(u)
+        try:
+            db.session.commit()
+        except:
+            db.session.rollback()
+            raise
+    return redirect(url_for('admin.manager', page=page))

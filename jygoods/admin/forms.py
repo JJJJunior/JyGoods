@@ -36,3 +36,4 @@ class EditUserForm(Form):
     password = PasswordField(u'新密码')
     role = SelectField(u'角色', coerce=int)
     submit = SubmitField(u'提交')
+
